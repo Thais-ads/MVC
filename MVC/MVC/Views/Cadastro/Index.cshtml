@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Cadastro Dev";
+}
+
+        
+         <div class="text-center">
+             
+
+             <div class="">
+        <a class="btn btn-primary" role="button" asp-area="" asp-controller="Cadastro" asp-action="Cadastra">Adicionar novo contato</a>
+
+
+             </div>
+
+                     <h1 class="display-4">Listagem de Contatos </h1>
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Profissao</th>
+                                    <th scope="col">Tempo-Area</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Analista</td>
+                                    <td>10 anos</td>
+                                    <td>
+                                        <div class="btn-group" role="group ">
+                                            <a role="button" class="btn btn-primary" asp-area="" asp-controller="Cadastro" asp-action="Edita">Editar</a>
+                        <a role="button" class="btn btn-secondary" asp-area="" asp-controller="Cadastro" asp-action="Confirmacaoapaga">Apagar</a>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Desenvolvedor front</td>
+                                    <td>17 anos</td>
+                                    <td>
+                                        <div class="btn-group" role="group ">
+                                            <a role="button" class="btn btn-primary" asp-area="" asp-controller="Cadastro" asp-action="Edita">Editar</a>
+                        <a role="button" class="btn btn-secondary" asp-area="" asp-controller="Cadastro" asp-action="Confirmacaoapaga">Apagar</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Thais</td>
+                                    <td>Full Stack</td>
+                                    <td>27 anos</td>
+                                    <td>
+                                        <div class="btn-group" role="group ">
+                                            <a role="button" class="btn btn-primary" asp-area="" asp-controller="Cadastro" asp-action="Edita">Editar</a>
+                        <a role="button" class="btn btn-secondary" asp-area="" asp-controller="Cadastro" asp-action="Confirmacaoapaga">Apagar</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    
+          </div>
+   

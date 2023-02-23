@@ -1,0 +1,18 @@
+﻿@*importando a homemodel *@
+
+@*INSTANCIANDO A HOMEMODEL DA MODEL, PARA QUE A VIEW ENTENDA.*@
+@model HomeModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4"> Bem vinda, @Model.Nome</h1>
+    <p>Seu primeiro desafio como Back-end.</p>
+    <span>
+        Boa noite, desenvolver um cadastro de Programadores e suas respectivas areas.
+    </span>
+</div>
+
+
+@*Usando o @Razor para escrever o codigo de c# junto com o HTML.*@
